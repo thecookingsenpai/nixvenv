@@ -11,3 +11,31 @@ Have you ever met a dependency that is required but would break your code elsewh
 ### Features
 
 • Customizable environment variables
+• Easy to set up configuration
+• Local files support
+• Local binaries support and priority
+
+### Installation
+
+To install NixVenv, execute in a terminal:
+
+    git clone https://github.com/thecookingsenpai/nixvenv
+    cd nixvenv
+    pip install -r requirements.txt
+
+### Usage
+
+    python nvenv.py operation=<operation> config_file=<configuration_json>
+
+### Command Line Arguments
+
+#### operation=
+
+• run: activate the nvenv environment specified by the configuration
+• activate: same as above
+• new: create and activate the nvenv environment specified by the configuration if not already present
+• remove: remove the nvenv environment specified by the configuration
+
+#### config_file=
+
+Any valid json file containing a nvenv configuration (relative path).
