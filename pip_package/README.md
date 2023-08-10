@@ -27,13 +27,7 @@ Alternatively, you can install NixVenv using pip:
 
     pip install nixvenv
 
-Or by building the pip package yourself:
-
-    git clone https://github.com/thecookingsenpai/nixvenv
-    cd nixvenv
-    python -m pip install -e pip_package
-
-In both these cases, you will have to provide (or copy from here) your own config.json file
+In this case, you will have to provide (or copy from here) your own config.json file
 
 ### Usage
 
