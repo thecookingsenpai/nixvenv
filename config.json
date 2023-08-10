@@ -1,0 +1,20 @@
+{
+	"nvenv_name": "localenv",
+	"working_dir": "./localenv",
+	"local_bin":  "bin",
+	"load_file": "load.sh",
+	"init_cmds": {
+		"nvenv_folder": "mkdir test",
+		"local_bin_folder": "echo '#!/bin/bash \necho It is working!' > nvenv_test && chmod +x nvenv_test",
+		"here": "mkdir .cache"
+	},
+	"overwrites" : {
+		"IS_VENV": "true"
+	},
+	"files": [
+		["./test", ".cache/test"]
+	], 
+	"additions" : {
+		"PATH": "/usr/local/sbin:/home/tcsenpai/bin"
+	}
+}
