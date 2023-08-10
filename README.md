@@ -10,4 +10,4 @@ Have you ever met a dependency that is required but would break your code elsewh
 
 ### Features
 
-[x] Customizable environment variables
+[ x ] Customizable environment variables
